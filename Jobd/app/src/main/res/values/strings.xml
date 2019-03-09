@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Jobd</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="register">Register</string>
+    <string name="phone">phone</string>
+    <string name="name">name</string>
+    <string name="surname">surname</string>
+    <string name="gender">gender</string>
+    <string name="sign_in">sign in</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="dob">DOB 01/01/2000</string>
+    <string name="address">address</string>
+    <string name="postcode">postcode</string>
+
+    <string name="gender_prompt">gender</string>
+    <string-array name="gender_arrays">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+
+    <string name="input_error_name">name required</string>
+    <string name="input_error_surname">surname required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_dob">DOB incorrect</string>
+    <string name="input_error_dob_required">DOB required</string>
+    <string name="input_error_address_required">address required</string>
+    <string name="input_error_postcode_required">postcode required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="registration_unsuccess">Registered Unsuccessfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+
+</resources>

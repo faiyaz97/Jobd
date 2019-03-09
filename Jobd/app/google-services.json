@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1080472107869",
+    "firebase_url": "https://jobd-2222.firebaseio.com",
+    "project_id": "jobd-2222",
+    "storage_bucket": "jobd-2222.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080472107869:android:608119a3ad1a9a3c",
+        "android_client_info": {
+          "package_name": "com.example.jobd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080472107869-oi4ki6rh4s4925q15jrklq5eotb73aoa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jobd",
+            "certificate_hash": "d33f7f1fa61750dcea75e455be7f7b43396ea094"
+          }
+        },
+        {
+          "client_id": "1080472107869-8hnl6inop7slvjs2odk40vsr2qe70bo0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jobd",
+            "certificate_hash": "9896748a3b864487f901441be62b9b162f173bfe"
+          }
+        },
+        {
+          "client_id": "1080472107869-ffur994sdu349e1bj6p8up7kpkee0n4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFtY3tQ73219rgtKax6wo2Ktfxc6zVMUI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080472107869-ffur994sdu349e1bj6p8up7kpkee0n4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
