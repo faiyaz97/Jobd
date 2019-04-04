@@ -81,7 +81,7 @@ public class SigninActivity extends AppCompatActivity implements View.OnClickLis
         //progressBar.setVisibility(View.GONE);
 
         if (name.isEmpty()) {
-            editTextName.setError(getString(R.string.input_error_name));
+            editTextName.setError("forename required");
             editTextName.requestFocus();
             return;
         }
