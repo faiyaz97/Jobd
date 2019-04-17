@@ -13,7 +13,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="420dp"
         android:orientation="vertical"
         android:background="@color/colorPrimaryDark"
         android:alpha="0.4"
@@ -31,7 +31,7 @@
         android:layout_centerVertical="true">
 
         <Button
-            android:id="@+id/buttonHiringHome"
+            android:id="@+id/buttonNewTask"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:text="Create a Job"
@@ -42,7 +42,18 @@
             tools:layout_editor_absoluteY="416dp" />
 
         <Button
-            android:id="@+id/buttonWorkingHome"
+            android:id="@+id/buttonOpenTask"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:text="Find a Job"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:alpha="0.8"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="416dp" />
+
+        <Button
+            android:id="@+id/buttonCloseTask"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:text="Find a Job"
@@ -53,15 +64,4 @@
             tools:layout_editor_absoluteY="416dp" />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="140dp"
-        android:paddingTop="16dp"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/new_logo"/>
-    </LinearLayout>
 </RelativeLayout>

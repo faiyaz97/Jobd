@@ -44,5 +44,16 @@
     <string name="registration_success">Registered Successfully</string>
     <string name="registration_unsuccess">Registered Unsuccessfully</string>
     <string name="input_error_email_invalid">enter a valid email</string>
+    <string name="title_activity_hiring_home">HiringHomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_help">Help</string>
+    <string name="title_activity_home_hiring">HomeHiringActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="newTask">New Task</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 
 </resources>

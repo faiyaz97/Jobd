@@ -26,7 +26,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class SigninActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private EditText editTextName, editTextEmail, editTextPassword, editTextPhone, editTextSurname, editTextDob, editTextAddress, editTextPostcode, editTextGender;
+    private EditText editTextName, editTextEmail, editTextPassword, editTextPhone, editTextSurname, editTextDob, editTextAddress, editTextPostcode;
 
     private ProgressDialog progressDialog;
     private ProgressBar progressBar;
@@ -74,6 +74,7 @@ public class SigninActivity extends AppCompatActivity implements View.OnClickLis
         final String postcode = editTextPostcode.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
         final String phone = editTextPhone.getText().toString().trim();
+        final String image = "https://firebasestorage.googleapis.com/v0/b/jobd-2222.appspot.com/o/Profile_images%2F8314104-1x1-940x940.jpg?alt=media&token=b17f4466-abf9-403c-866c-b1ddd9ae2710";
 
 
         progressDialog = new ProgressDialog(this);
@@ -169,7 +170,8 @@ public class SigninActivity extends AppCompatActivity implements View.OnClickLis
                                     email,
                                     phone,
                                     address,
-                                    postcode
+                                    postcode,
+                                    image
                             );
 
                             FirebaseDatabase.getInstance().getReference("Users")
