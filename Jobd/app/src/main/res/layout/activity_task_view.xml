@@ -3,16 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     tools:context=".TaskViewActivity"
-    android:layout_margin="20dp">
+    android:background="@drawable/bimg1"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="381dp"
+        android:background="#fff"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="20dp">
 
         <TextView
             android:id="@+id/task_view_title"
@@ -24,7 +28,6 @@
             android:textColor="#fff"
             android:textSize="16dp"
             android:textStyle="bold" />
-
 
 
         <LinearLayout

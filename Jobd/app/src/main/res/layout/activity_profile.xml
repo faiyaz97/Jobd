@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ProfileActivity"
+    android:background="@drawable/bimg1"
     >
 
 
@@ -19,7 +20,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/navigation" />
+        app:menu="@menu/navigation"
+        />
 
     <ImageButton
         android:id="@+id/setupImageButton"
@@ -49,15 +51,18 @@
         app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/setupImageButton"
-        app:layout_constraintVertical_bias="0.04">
+        app:layout_constraintVertical_bias="0.04"
+        >
 
         <TextView
             android:id="@+id/view_name"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
             android:text="Name:"
+            android:textSize="15sp"
+            android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@+id/setupImageButton" />
 
         <TextView
@@ -67,6 +72,8 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
             android:text="name" />
     </LinearLayout>
 
@@ -86,6 +93,8 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="40dp"
             android:text="Surname:"
+            android:textSize="15sp"
+            android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@+id/setupImageButton" />
 
         <TextView
@@ -95,6 +104,8 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
             android:text="surname" />
     </LinearLayout>
 
@@ -114,6 +125,8 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="40dp"
             android:text="Email:"
+            android:textSize="15sp"
+            android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@+id/setupImageButton" />
 
         <TextView
@@ -123,6 +136,8 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
             android:text="email" />
     </LinearLayout>
 
@@ -142,6 +157,8 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="40dp"
             android:text="DOB:"
+            android:textSize="15sp"
+            android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@+id/setupImageButton" />
 
         <TextView
@@ -151,6 +168,8 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
             android:text="date of birth" />
     </LinearLayout>
 
@@ -170,6 +189,8 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="40dp"
             android:text="Address:"
+            android:textSize="15sp"
+            android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@+id/setupImageButton" />
 
         <TextView
@@ -179,6 +200,8 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
             android:text="address" />
     </LinearLayout>
 
@@ -197,6 +220,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="40dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
             android:text="Phone:"
             app:layout_constraintTop_toBottomOf="@+id/setupImageButton" />
 
@@ -207,6 +232,8 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
             android:text="phone" />
     </LinearLayout>
 
